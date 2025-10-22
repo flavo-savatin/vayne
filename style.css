@@ -1,0 +1,117 @@
+/* ====== CONFIGURAÇÕES GERAIS ====== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0a0a0a;
+  color: #f1f1f1;
+}
+
+/* ====== CABEÇALHO ====== */
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(90deg, #2e003e, #000);
+  border-bottom: 2px solid #7a00ff;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: #b78aff;
+}
+
+header p {
+  font-size: 3rem;
+  color: #d1c4ff;
+}
+
+/* ====== SEÇÃO INTRO ====== */
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  gap: 20px;
+}
+
+.intro img {
+  width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 0 80px #7a00ff;
+}
+
+.intro-text {
+  max-width: 500px;
+}
+
+.intro-text h2 {
+  color: #b78aff;
+  border-bottom: 2px solid #7a00ff;
+  padding-bottom: 5px;
+}
+
+.intro-text p {
+  line-height: 1.6;
+}
+
+/* ====== SKILLS ====== */
+.skills {
+  background: #111;
+  padding: 40px 20px;
+}
+
+.skills h2 {
+  text-align: center;
+  color: #b78aff;
+  border-bottom: 2px solid #7a00ff;
+  display: inline-block;
+  margin: 0 auto 30px;
+  padding-bottom: 5px;
+}
+
+.skill {
+  background: #1a1a1a;
+  border: 1px solid #3d0066;
+  padding: 15px;
+  margin: 15px auto;
+  max-width: 700px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.skill:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 10px #7a00ff;
+}
+
+.skill h3 {
+  color: #b78aff;
+}
+
+/* ====== RODAPÉ ====== */
+.botao {
+  background: #7a00ff;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.botao:hover {
+  background: #5c00cc;
+  transform: scale(1.05);
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #0a0a0a;
+  border-top: 2px solid #7a00ff;
+  font-size: 0.9rem;
+  color: #d1c4ff;
+}
